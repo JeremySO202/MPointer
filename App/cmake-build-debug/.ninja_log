@@ -1,0 +1,14 @@
+# ninja log v5
+5	110	7463313979096355	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointerGC.cpp.obj	797db699a05d16df
+1	741	7463327139387934	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointer.cpp.obj	37fdf4f2dd59aea9
+7	903	7463314000699793	CMakeFiles/App.dir/main.cpp.obj	bff0d3f1ba2d2aee
+3	310	7463329453786886	build.ninja	dd3f1d6d40722a38
+743	1093	7463327142885674	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a	814c5d95848fd120
+816	991	7463327873816706	Pruebas.exe	1320c72032a7a9f
+6	897	7463329344281684	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
+4	272	7463329453786886	build.ninja	dd3f1d6d40722a38
+1	92	7463329455677325	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointerGC.cpp.obj	797db699a05d16df
+94	318	7463329457919295	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a	5f1d2e577963de9f
+10	257	7463329464401800	Pruebas.exe	1320c72032a7a9f
+7	889	7463330743810837	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
+891	1059	7463330745463151	Pruebas.exe	1320c72032a7a9f
