@@ -11,7 +11,7 @@ class MPointer {
 private:
     T *data;
     MPointer(){
-        
+
         data = (T*) malloc(sizeof(T));
     }
 
@@ -19,11 +19,11 @@ public:
     static MPointer<T> New(){
         return MPointer<T>();
     }
-    // SObrecarga del operador *
+    // SObrecarga del operador * (retorna el valor en memoria)
     T& operator*() {
         return *data;
     }
-    // SObrecarga del operador =
+    // SObrecarga del operador = (si es del tipo T)
     MPointer& operator=(T newData) {
         *data =  newData;
 

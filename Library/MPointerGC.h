@@ -12,8 +12,6 @@ private:
 
     ~MPointerGC();
 
-    MPointerGC(const MPointerGC&) = delete;
-    MPointerGC& operator=(const MPointerGC&) = delete;
 
 public:
     static MPointerGC& getInstance();
