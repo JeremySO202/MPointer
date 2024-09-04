@@ -2,36 +2,43 @@
 // Created by jerem on 16/8/2024.
 //
 
-#include "MPointerGC.h"
 #include "MPointer.h"
 #include<iostream>
 
 using namespace std;
 
-int main(int argc, char *argv[]) {
+template <typename T>
+MPointer<T>& foo(){
+    MPointer<int> temp2 = MPointer<int>::New();
+    MPointer<int> temp = MPointer<int>::New();
+    temp = 666;
+    MPointerGC::getInstance().debug();
+    return temp;
+}
 
-    MPointer<int> mPointer = MPointer<int>::New();
 
-    *mPointer = 5;
-
-    cout << &mPointer << endl;
-    mPointer = 7;
-
-    int val = &mPointer;
-    cout << val << endl;
-
-    *mPointer = 10;
-
-    cout << val << endl;
-
-    cout << &mPointer << endl;
+int main() {
 
     MPointerGC &a = MPointerGC::getInstance();
-    MPointerGC &b = MPointerGC::getInstance();
 
-    if (&a == &b){
-        cout << "si funca" << endl;
-    }
+    MPointer<int> mp1 = MPointer<int>::New();
+    MPointer<int> mp2 = MPointer<int>::New();
+    foo<int>();
+
+    MPointerGC::getInstance().debug();
+
+    *mp1 = 100;
+    mp2= 55;
+
+    int prueba = &mp1;
+
+    cout << prueba << endl << endl;
+
+    MPointer<int> mp3 = mp2;
+    MPointerGC::getInstance().debug();
+
+    mp3 = mp1;
+    MPointerGC::getInstance().debug();
 
 
     return 0;

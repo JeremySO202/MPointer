@@ -3,6 +3,8 @@ project(Library)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_library(Library STATIC MPointer.cpp MPointerGC.cpp)
+add_library(Library STATIC MPointer.cpp MPointerGC.cpp
+        ListaSimple.cpp
+        ListaSimple.h)
 
 target_include_directories(Library PUBLIC ${CMAKE_CURRENT_SOURCE_DIR})
