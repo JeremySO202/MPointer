@@ -21,12 +21,12 @@ int main() {
 
     list.insertarInicio(6);
     list.insertarInicio(7);
-    list.insertarInicio(8);
+    list.insertarInicio(11);
     list.insertarInicio(9);
 
     cout << "Fin del codigo" << endl;
 
-    list.quickSort();
+    list.insertionSort();
 
     cout << "Fin del codigo" << endl;
 

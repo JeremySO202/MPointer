@@ -96,4 +96,60 @@ void DoublyLinkedList::quickSort()
     _quickSort(head, last);
 }
 
+//Bubble sort
 
+void DoublyLinkedList::bubbleSort()
+{
+    int swapped, i;
+    MPointer<Node> start = MPointer<Node>::New();
+    start = this->first;
+    MPointer<Node> ptr1 = MPointer<Node>::New();
+    MPointer<Node> lptr = nullptr;
+
+    /* Checking for empty list */
+    if (start == nullptr)
+        return;
+    do
+    {
+        swapped = 0;
+        ptr1 = start;
+
+        while ((*ptr1->next) != (*lptr))
+        {
+            if (ptr1->data > ptr1->next->data)
+            {
+                swap(ptr1, ptr1->next);
+                swapped = 1;
+            }
+            ptr1 = ptr1->next;
+        }
+        lptr = ptr1;
+    }
+    while (swapped);
+}
+
+
+void DoublyLinkedList::insertionSort() {
+    {
+        // Getting first node
+        MPointer<Node> front = this->first;
+        MPointer<Node> back = nullptr;
+        while (front != nullptr)
+        {
+            // Getting next node
+            back = front->next;
+            // Updating node value when consecutive nodes are not sorted
+            while (back != nullptr &&
+                   back->prev != nullptr &&
+                   back->data < back->prev->data)
+            {
+                // Changed node data
+                swap(back, back->prev);
+                // Visiting previous node
+                back = back->prev;
+            }
+            // Visiting next node
+            front = front->next;
+        }
+    }
+}
