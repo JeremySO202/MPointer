@@ -1,7 +1,3 @@
-//
-// Created by Usuario II 2024 on 1/9/2024.
-//
-
 #ifndef DOUBLYLINKEDLIST_H
 #define DOUBLYLINKEDLIST_H
 #include <MPointer.h>
@@ -9,13 +5,26 @@
 
 class Node {
 public:
-    MPointer<int> data;
-    MPointer<Node> next;
-    MPointer<Node> prev;
+    Node(int number);
+
+    Node();
+
+    int number;
+    MPointer<Node> next = nullptr;
+    MPointer<Node> prev = nullptr;
 };
 
 class DoublyLinkedList {
+public:
+    MPointer<Node> first = nullptr;
+    MPointer<Node> last = nullptr;
 
+
+
+    void insertarInicio(int data);
+    void quickSort();
+    void bubbleSort();
+    void insertionSort();
 };
 
 

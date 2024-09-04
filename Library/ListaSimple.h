@@ -1,7 +1,3 @@
-//
-// Created by jerem on 25/8/2024.
-//
-
 #ifndef PRUEBAS_LISTASIMPLE_H
 #define PRUEBAS_LISTASIMPLE_H
 

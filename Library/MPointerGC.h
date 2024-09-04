@@ -1,7 +1,3 @@
-//
-// Created by jerem on 25/8/2024.
-//
-
 #ifndef MPOINTERS_MPOINTERGC_H
 #define MPOINTERS_MPOINTERGC_H
 

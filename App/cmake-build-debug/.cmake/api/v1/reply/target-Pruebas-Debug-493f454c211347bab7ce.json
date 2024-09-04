@@ -59,11 +59,11 @@
 			[
 				{
 					"backtrace" : 3,
-					"path" : "C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/App/../Library"
+					"path" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/../Library"
 				},
 				{
 					"backtrace" : 2,
-					"path" : "C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/Library"
+					"path" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library"
 				}
 			],
 			"language" : "CXX",
@@ -86,7 +86,7 @@
 	[
 		{
 			"backtrace" : 2,
-			"id" : "Library::@801b3d4cd9629914d04a"
+			"id" : "Library::@c832c42f74efc74e4eda"
 		}
 	],
 	"id" : "Pruebas::@6890427a1f51a3e7e1df",
@@ -104,7 +104,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "\"C:\\Users\\Usuario II 2024\\Downloads\\Proyectos\\Proyectos\\Proyecto1\\Library\\cmake-build-debug\\libLibrary.a\"",
+				"fragment" : "\"E:\\Escritorio\\OneDrive - Estudiantes ITCR\\TEC\\Curso 2024\\II Semestre\\Datos 2\\Proyectos\\Proyecto1\\Library\\cmake-build-debug\\libLibrary.a\"",
 				"role" : "libraries"
 			},
 			{

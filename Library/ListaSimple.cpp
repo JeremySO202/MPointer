@@ -10,7 +10,6 @@ void ListaSimple::insertarAlInicio(void* _direccion, int _cantidad) {
         nuevo->siguiente = inicio;
         inicio = nuevo;
     }
-
 }
 
 Nodo * ListaSimple::eliminar(void* _direccion){

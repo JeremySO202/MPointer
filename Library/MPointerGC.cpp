@@ -1,7 +1,3 @@
-//
-// Created by jerem on 25/8/2024.
-//
-
 #include "MPointerGC.h"
 #include <chrono>
 #include <thread>

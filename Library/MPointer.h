@@ -32,6 +32,10 @@ public:
         data =  newData.data;
     }
 
+    MPointer(std::nullptr_t nullValue) {
+        data =  nullValue;
+    }
+
     static MPointer<T> New(){
         return MPointer<T>();
     }
@@ -39,12 +43,18 @@ public:
     T& operator*() {
         return *data;
     }
+    MPointer<T>& operator=(std::nullptr_t nullValue) {
+        delete data;
+        data = nullValue;
+        return *this;
+    }
     // SObrecarga del operador = (si es del tipo T)
     MPointer& operator=(T newData) {
         *data =  newData;
 
         return *this;
     }
+
     // SObrecarga del operador = (si es del tipo MPointer)
     MPointer& operator=(MPointer& newData) {
         MPointerGC &gc = MPointerGC::getInstance();
@@ -59,6 +69,9 @@ public:
         return *data;
     }
 
+    bool operator==(std::nullptr_t) const {
+        return data == nullptr;
+    }
 
 
 };
