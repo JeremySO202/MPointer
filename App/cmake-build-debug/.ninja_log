@@ -1,38 +1,19 @@
-# ninja log v5
-25	966	7469225087906938	CMakeFiles/Pruebas.dir/main.cpp.obj	3622c2a6b947c150
-32	211	7469251226193027	Pruebas.exe	81e09cc5a2f5d180
-2	1974	7471213991915963	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/ListaSimple.cpp.obj	992d45457b924bc3
-19	2280	7471213995171854	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointer.cpp.obj	37fdf4f2dd59aea9
-11	3253	7471214004916761	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointerGC.cpp.obj	797db699a05d16df
-3254	3517	7471214007533657	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a	28a3d7e186050cbd
-10	1660	7471214027237588	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-16	1210	7471216286192376	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-18	1320	7471222680972670	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-15	1186	7471227673006613	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-6	1396	7471228426224964	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-7	1245	7471229191396742	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	846a5437e1114a29
-16	1251	7471229191432063	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-1252	1767	7471229196564037	Pruebas.exe	9f4d448012892c0d
-16	1331	7471240647159239	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-5	1384	7471240647814314	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	846a5437e1114a29
-1385	1597	7471240649923070	Pruebas.exe	9f4d448012892c0d
-6	1146	7471241437178701	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-1148	1315	7471241438817589	Pruebas.exe	9f4d448012892c0d
-6	1610	7471241678955775	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-1612	1786	7471241680657539	Pruebas.exe	9f4d448012892c0d
-17	2073	7471243765987443	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	846a5437e1114a29
-8	2093	7471243766158591	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-2095	2345	7471243768847774	Pruebas.exe	9f4d448012892c0d
-13	1232	7471265676930917	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-5	1239	7471265676970924	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	846a5437e1114a29
-1239	1462	7471265679234332	Pruebas.exe	9f4d448012892c0d
-27	1540	7471266106347399	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	846a5437e1114a29
-10	1543	7471266106382501	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-1544	1833	7471266109289434	Pruebas.exe	9f4d448012892c0d
-7	1211	7471266529061570	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-1212	1433	7471266531171293	Pruebas.exe	9f4d448012892c0d
-8	1243	7471268353341514	CMakeFiles/Pruebas.dir/main.cpp.obj	1e73677f7d9f07ce
-16	1309	7471268353983605	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	846a5437e1114a29
-1310	1523	7471268356079926	Pruebas.exe	9f4d448012892c0d
-7	1284	7471271272077044	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	846a5437e1114a29
-1286	1472	7471271273892722	Pruebas.exe	9f4d448012892c0d
+# ninja log v6
+22	674	7471735625285817	C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/ListaSimple.cpp.obj	95862b22daa1297f
+12	870	7471735625186355	C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointer.cpp.obj	b79d53a417f91b33
+18	1601	7471735625235949	C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointerGC.cpp.obj	5f50e5f777d79326
+1601	1682	7471735641073372	C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a	23559ad60c9b4b5f
+15	849	7471735644097926	CMakeFiles/Pruebas.dir/main.cpp.obj	3622c2a6b947c150
+20	876	7471736049133569	CMakeFiles/Pruebas.dir/main.cpp.obj	3622c2a6b947c150
+17	883	7471736150533889	CMakeFiles/Pruebas.dir/main.cpp.obj	3622c2a6b947c150
+11	920	7471736227767344	CMakeFiles/Pruebas.dir/main.cpp.obj	3622c2a6b947c150
+17	942	7471736227817212	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	7296bf8cbae8311d
+942	1106	7471736237072473	Pruebas.exe	61d8bd7d3e18d854
+11	818	7471739393246016	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	7296bf8cbae8311d
+819	936	7471739401318730	Pruebas.exe	61d8bd7d3e18d854
+13	847	7471740196354454	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	7296bf8cbae8311d
+848	965	7471740204712111	Pruebas.exe	61d8bd7d3e18d854
+15	912	7471774164135941	CMakeFiles/Pruebas.dir/main.cpp.obj	3622c2a6b947c150
+20	858	7471774724561659	CMakeFiles/Pruebas.dir/main.cpp.obj	3622c2a6b947c150
+26	878	7471774724621470	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	7296bf8cbae8311d
+878	1003	7471774733138705	Pruebas.exe	61d8bd7d3e18d854

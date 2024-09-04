@@ -15,7 +15,7 @@ MPointer<T>& foo(){
 
 
 int main() {
-    MPointerGC &a = MPointerGC::getInstance();
+    MPointerGC::getInstance();
 
     DoublyLinkedList list = DoublyLinkedList();
 
@@ -23,6 +23,10 @@ int main() {
     list.insertarInicio(7);
     list.insertarInicio(8);
     list.insertarInicio(9);
+
+    cout << "Fin del codigo" << endl;
+
+    list.quickSort();
 
     cout << "Fin del codigo" << endl;
 

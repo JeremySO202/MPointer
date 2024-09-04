@@ -1,0 +1,102 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/Library/cmake-build-debug",
+					"jsonFile" : "directory-Debug-e9582f8c56a87ba98a2b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/Library",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Pruebas",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "Library",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "Library::@801b3d4cd9629914d04a",
+					"jsonFile" : "target-Library-Debug-7d55caec1eb8c3a09bb9.json",
+					"name" : "Library",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Pruebas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Pruebas-Debug-a6e4c60863c98a4fbdc6.json",
+					"name" : "Pruebas",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/App/cmake-build-debug",
+		"source" : "C:/Users/Usuario II 2024/Downloads/Proyectos/Proyectos/Proyecto1/App"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

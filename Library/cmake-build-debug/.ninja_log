@@ -1,0 +1,5 @@
+# ninja log v6
+15	715	7471734275395703	CMakeFiles/Library.dir/ListaSimple.cpp.obj	cfba22af2a3eea6c
+3	904	7471734275276140	CMakeFiles/Library.dir/MPointer.cpp.obj	dc619f5730f82434
+10	1605	7471734275345851	CMakeFiles/Library.dir/MPointerGC.cpp.obj	251ab79ad25d739f
+1606	1714	7471734291295598	libLibrary.a	9704ba6323513eef

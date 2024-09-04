@@ -39,10 +39,17 @@ public:
     static MPointer<T> New(){
         return MPointer<T>();
     }
-    // SObrecarga del operador * (retorna el valor en memoria)
-    T& operator*() {
-        return *data;
+
+    T* operator->(){
+        return data;
     }
+    // SObrecarga del operador * (retorna el valor en memoria)
+    T* operator*() {
+        return data;
+    }
+
+
+
     MPointer<T>& operator=(std::nullptr_t nullValue) {
         delete data;
         data = nullValue;

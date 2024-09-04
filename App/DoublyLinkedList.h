@@ -9,7 +9,7 @@ public:
 
     Node();
 
-    int number;
+    int data;
     MPointer<Node> next = nullptr;
     MPointer<Node> prev = nullptr;
 };
