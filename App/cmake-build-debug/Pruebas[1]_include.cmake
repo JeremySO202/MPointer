@@ -1,0 +1,5 @@
+if(EXISTS "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake")
+  include("E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake")
+else()
+  add_test(Pruebas_NOT_BUILT Pruebas_NOT_BUILT)
+endif()

@@ -1,6 +1,7 @@
 #include "MPointer.h"
 #include "DoublyLinkedList.h"
 #include<iostream>
+#include <gtest/gtest.h>
 
 using namespace std;
 
@@ -14,21 +15,24 @@ MPointer<T>& foo(){
 }
 
 
-int main() {
-    MPointerGC::getInstance();
+int main(int argc, char **argv) {
 
-    DoublyLinkedList list = DoublyLinkedList();
-
-    list.insertarInicio(6);
-    list.insertarInicio(7);
-    list.insertarInicio(11);
-    list.insertarInicio(9);
-
-    cout << "Fin del codigo" << endl;
-
-    list.insertionSort();
-
-    cout << "Fin del codigo" << endl;
+    testing::InitGoogleTest(&argc, argv);
+    return RUN_ALL_TESTS();
+//    MPointerGC::getInstance();
+//
+//    DoublyLinkedList list = DoublyLinkedList();
+//
+//    list.insertarInicio(6);
+//    list.insertarInicio(7);
+//    list.insertarInicio(11);
+//    list.insertarInicio(9);
+//
+//    cout << "Fin del codigo" << endl;
+//
+//    list.insertionSort();
+//
+//    cout << "Fin del codigo" << endl;
 
 
 
@@ -54,5 +58,5 @@ int main() {
 //    MPointerGC::getInstance().debug();
 
 
-    return 0;
+    //return 0;
 };
