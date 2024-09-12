@@ -1,0 +1,200 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "tst/Proyecto1_tst.exe"
+		},
+		{
+			"path" : "tst/Proyecto1_tst.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"tst/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 14,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 6,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 13,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu++20 -fdiagnostics-color=always"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/src"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/tst/../Library"
+				},
+				{
+					"backtrace" : 3,
+					"path" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/googletest/googletest/include"
+				},
+				{
+					"backtrace" : 2,
+					"isSystem" : true,
+					"path" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/googletest/googletest"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					2
+				],
+				"standard" : "20"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "Proyecto1_lib::@4cec9bfdf5c218c89c51"
+		},
+		{
+			"backtrace" : 3,
+			"id" : "Library::@c832c42f74efc74e4eda"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "gtest::@0e90ea9ffcbcbe9da844"
+		}
+	],
+	"id" : "Proyecto1_tst::@bc08d5df49ffa9ee5cce",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "App\\libProyecto1_lib.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "lib\\libgtest.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "\"E:\\Escritorio\\OneDrive - Estudiantes ITCR\\TEC\\Curso 2024\\II Semestre\\Datos 2\\Proyectos\\Proyecto1\\Library\\cmake-build-debug\\libLibrary.a\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Proyecto1_tst",
+	"nameOnDisk" : "Proyecto1_tst.exe",
+	"paths" : 
+	{
+		"build" : "tst",
+		"source" : "tst"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tst/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tst/main.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

@@ -1,0 +1,15 @@
+"E:\CLion 2023.2.1\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=E:/CLion 2023.2.1/bin/ninja/win/x64/ninja.exe" -G Ninja -S "E:\Escritorio\OneDrive - Estudiantes ITCR\TEC\Curso 2024\II Semestre\Datos 2\Proyectos\Proyecto1" -B "E:\Escritorio\OneDrive - Estudiantes ITCR\TEC\Curso 2024\II Semestre\Datos 2\Proyectos\Proyecto1\cmake-build-debug"
+CMake Error at CMakeLists.txt:12 (add_subdirectory):
+  The binary directory
+
+    E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/cmake-build-debug/Library/googletest
+
+  is already used to build a source directory.  It cannot be used to build
+  source directory
+
+    E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/googletest
+
+  Specify a unique binary directory name.
+
+
+-- Configuring incomplete, errors occurred!

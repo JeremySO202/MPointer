@@ -1,0 +1,279 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						4
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "tst",
+					"jsonFile" : "directory-tst-Debug-291a383525c521b904e8.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tst",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "App",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-App-Debug-9910e6dded6739cc0f00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.17"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "App",
+					"targetIndexes" : 
+					[
+						1,
+						2
+					]
+				},
+				{
+					"build" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug",
+					"jsonFile" : "directory-Library-Debug-c694a8f7cea628aa812e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.26"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 1,
+					"source" : "Library",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Library/googletest",
+					"childIndexes" : 
+					[
+						5
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Library.googletest-Debug-49cbcb0b9ab3ad54197e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "Library/googletest"
+				},
+				{
+					"build" : "Library/googletest/googlemock",
+					"childIndexes" : 
+					[
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Library.googletest.googlemock-Debug-45f0cb473533cfe629a4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 3,
+					"source" : "Library/googletest/googlemock",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "Library/googletest/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-Library.googletest.googletest-Debug-d9038373c26e49640544.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.13"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 4,
+					"source" : "Library/googletest/googletest",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "Proyecto1",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						3
+					],
+					"name" : "Library",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						4
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						5
+					],
+					"name" : "gmock",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						6
+					],
+					"name" : "gtest",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 3,
+					"id" : "Library::@c832c42f74efc74e4eda",
+					"jsonFile" : "target-Library-Debug-13c792cfa0dde3cf84c7.json",
+					"name" : "Library",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Proyecto1_lib::@4cec9bfdf5c218c89c51",
+					"jsonFile" : "target-Proyecto1_lib-Debug-621a3e99b2bdfb16d78c.json",
+					"name" : "Proyecto1_lib",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "Proyecto1_run::@4cec9bfdf5c218c89c51",
+					"jsonFile" : "target-Proyecto1_run-Debug-2d5d5bb07260df3e5b32.json",
+					"name" : "Proyecto1_run",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "Proyecto1_tst::@bc08d5df49ffa9ee5cce",
+					"jsonFile" : "target-Proyecto1_tst-Debug-1d3fb6eae7fdf9235227.json",
+					"name" : "Proyecto1_tst",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock::@e22eb93e3bdc75e5cb79",
+					"jsonFile" : "target-gmock-Debug-0a86ccc991eea2fc70c6.json",
+					"name" : "gmock",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "gmock_main::@e22eb93e3bdc75e5cb79",
+					"jsonFile" : "target-gmock_main-Debug-21db28a80de70e0a5dc6.json",
+					"name" : "gmock_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest::@0e90ea9ffcbcbe9da844",
+					"jsonFile" : "target-gtest-Debug-568c77a0195e06f123a9.json",
+					"name" : "gtest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "gtest_main::@0e90ea9ffcbcbe9da844",
+					"jsonFile" : "target-gtest_main-Debug-e406f5a5640fe6621ccb.json",
+					"name" : "gtest_main",
+					"projectIndex" : 4
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/cmake-build-debug",
+		"source" : "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 5
+	}
+}

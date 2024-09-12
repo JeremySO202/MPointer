@@ -1,34 +1,32 @@
 # ninja log v5
-14	944	7471807805551448	CMakeFiles/Pruebas.dir/main.cpp.obj	3622c2a6b947c150
-990	1117	7471807815312611	Pruebas.exe	61d8bd7d3e18d854
-20	990	7471807805612042	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	7296bf8cbae8311d
-40	2107	7475325869747261	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointer.cpp.obj	37fdf4f2dd59aea9
-4	2223	7475325870910502	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	6991cf328e1a0110
-12	2244	7475325870940514	CMakeFiles/Pruebas.dir/main.cpp.obj	5da08b6828e84e33
-2237	3304	7475325881821486	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/ListaSimple.cpp.obj	992d45457b924bc3
+14	1064	7478157356178403	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/ListaSimple.cpp.obj	992d45457b924bc3
+17911	18008	7475326028863269	lib/libgtest_main.a	728284fa6010a46
+2560	6811	7478161556789537	Pruebas.exe	d0f2867a849d69b5
+15	3864	7478122233883560	CMakeFiles/Pruebas.dir/main.cpp.obj	5da08b6828e84e33
+9	2527	7478132723313366	CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj	ff349e89cb4e9a26
+7	1355	7478131545441760	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	6991cf328e1a0110
+12	2381	7478161512499546	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointerGC.cpp.obj	797db699a05d16df
 33	3728	7475325886065623	_deps/googletest-build/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	27237495c1c9facd
-18	3871	7475325887479675	CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj	ff349e89cb4e9a26
-2112	4633	7475325895111934	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointerGC.cpp.obj	797db699a05d16df
-4634	4803	7475325896791862	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a	28a3d7e186050cbd
+40	2107	7475325869747261	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointer.cpp.obj	37fdf4f2dd59aea9
+2383	2560	7478161514290796	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a	28a3d7e186050cbd
 27	14099	7475325989587323	_deps/googletest-build/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	bd71c90d1b6d30cf
 14103	17911	7475326027877148	lib/libgtest.a	870960d7c949ebc7
-17911	18008	7475326028863269	lib/libgtest_main.a	728284fa6010a46
-18009	22691	7475326075677412	Pruebas.exe	6681576f2479c48e
-18009	22691	7475326075677412	Pruebas[1]_tests.cmake	6681576f2479c48e
-18009	22691	7475326075677412	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake	6681576f2479c48e
-8	2233	7475326884084716	CMakeFiles/Pruebas.dir/main.cpp.obj	5da08b6828e84e33
-2234	6227	7475326924007801	Pruebas.exe	6681576f2479c48e
-2234	6227	7475326924007801	Pruebas[1]_tests.cmake	6681576f2479c48e
-2234	6227	7475326924007801	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake	6681576f2479c48e
-7	2367	7475330847042036	CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj	ff349e89cb4e9a26
-2369	6934	7475330892706739	Pruebas.exe	6681576f2479c48e
-2369	6934	7475330892706739	Pruebas[1]_tests.cmake	6681576f2479c48e
-2369	6934	7475330892706739	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake	6681576f2479c48e
-7	2295	7475331334536847	CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj	ff349e89cb4e9a26
-2296	6294	7475331374557706	Pruebas.exe	6681576f2479c48e
-2296	6294	7475331374557706	Pruebas[1]_tests.cmake	6681576f2479c48e
-2296	6294	7475331374557706	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake	6681576f2479c48e
-7	2443	7475331637284005	CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj	ff349e89cb4e9a26
-2445	6701	7475331679857451	Pruebas.exe	6681576f2479c48e
-2445	6701	7475331679857451	Pruebas[1]_tests.cmake	6681576f2479c48e
-2445	6701	7475331679857451	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake	6681576f2479c48e
+2560	6811	7478161556789537	Pruebas[1]_tests.cmake	d0f2867a849d69b5
+2560	6811	7478161556789537	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake	d0f2867a849d69b5
+26	1567	7477304500099708	CMakeFiles/Pruebas.dir/Sorts.cpp.obj	6dba272ce89ef581
+115	3862	7478122233873550	CMakeFiles/Pruebas.dir/sorts.cpp.obj	86acb54833eb4b79
+11	2212	7478161737981279	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointerGC.cpp.obj	797db699a05d16df
+2214	2334	7478161739181261	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a	28a3d7e186050cbd
+2335	6841	7478161784244941	Pruebas.exe	d0f2867a849d69b5
+2335	6841	7478161784244941	Pruebas[1]_tests.cmake	d0f2867a849d69b5
+2335	6841	7478161784244941	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake	d0f2867a849d69b5
+35	1903	7478252897336276	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/ListaSimple.cpp.obj	992d45457b924bc3
+8	2226	7478252900817427	CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj	6991cf328e1a0110
+19	2303	7478252901617523	CMakeFiles/Pruebas.dir/sorts.cpp.obj	86acb54833eb4b79
+29	3433	7478252912926110	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointerGC.cpp.obj	797db699a05d16df
+14	3611	7478252914711421	CMakeFiles/Pruebas.dir/main.cpp.obj	5da08b6828e84e33
+3434	3725	7478252915841736	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a	28a3d7e186050cbd
+24	3808	7478252916661811	CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj	ff349e89cb4e9a26
+3808	8671	7478252965287615	Pruebas.exe	d0f2867a849d69b5
+3808	8671	7478252965287615	Pruebas[1]_tests.cmake	d0f2867a849d69b5
+3808	8671	7478252965287615	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/Pruebas[1]_tests.cmake	d0f2867a849d69b5

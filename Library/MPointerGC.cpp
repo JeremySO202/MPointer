@@ -6,10 +6,15 @@
 MPointerGC::MPointerGC() {
     direcciones = new ListaSimple();
     this->stop = false;
-    //hilo = std::thread(checkReferencias);
+    hilo = std::thread([this]() {
+        while (!stop) {
+            std::this_thread::sleep_for(std::chrono::microseconds (1));
+            this->checkReferencias();
+        }
+    });
 }
 MPointerGC::~MPointerGC() noexcept {
-
+    this->stop = true;
 }
 
 MPointerGC &MPointerGC::getInstance() {
@@ -24,11 +29,14 @@ void MPointerGC::newDireccion(void* direccion) {
     else{
         this->direcciones->modificar(direccion,1);
     }
+//    std::cout << "Nuevo MPointer" << std::endl;
+//    debug();
 }
 
 void MPointerGC::deleteDireccion(void* direccion){
     this->direcciones->modificar(direccion,-1);
-    this->checkReferencias();
+//    std::cout << "Eliminando MPointer" << std::endl;
+//    debug();
 }
 
 void MPointerGC::debug() {

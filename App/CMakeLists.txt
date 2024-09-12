@@ -17,7 +17,10 @@ enable_testing()
 add_executable(Pruebas main.cpp
         DoublyLinkedList.cpp
         DoublyLinkedList.h
-        MPointerTest.cpp)
+        MPointerTest.cpp
+        sorts.cpp
+        sorts.h
+)
 
 target_include_directories(Pruebas PRIVATE ../Library)
 target_link_libraries(Pruebas PRIVATE Library GTest::gtest_main)

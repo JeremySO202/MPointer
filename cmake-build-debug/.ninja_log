@@ -1,0 +1,20 @@
+# ninja log v5
+22	209	7475246364994826	App/CMakeFiles/Proyecto1_run.dir/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj	abf1f9521e9f72f7
+8	139	7475256391920171	tst/CMakeFiles/Proyecto1_tst.dir/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj	b8986a368b2b039c
+21	169	7475252725068738	App/CMakeFiles/Proyecto1_lib.dir/cmake-build-debug/CMakeFiles/3.29.6/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj	96ec1372bfd5e19d
+14	2821	7475256418758355	tst/CMakeFiles/Proyecto1_tst.dir/main.cpp.obj	a9ad471d3ea4e3f6
+9	124	7475255936478830	App/CMakeFiles/Proyecto1_lib.dir/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj	eb76d66863a05815
+34	16594	7475252889152122	Library/googletest/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	4f3d3892c20ee4c8
+27	4631	7475255981548450	lib/libgtest.a	59f4edda81c6d283
+30	1441	7475256404943915	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointer.cpp.obj	f21b93fb811a66d
+36	2587	7475256416415258	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/MPointerGC.cpp.obj	8bdde7ef6457370b
+23	956	7475256539445176	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/CMakeFiles/Library.dir/ListaSimple.cpp.obj	acb01ac17b7ebe38
+21	140	7475256556770713	E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a	28a3d7e186050cbd
+2	121	7475308001217618	App/CMakeFiles/Proyecto1_run.dir/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj	a97184cd8648c47a
+15	1277	7475308012782152	App/CMakeFiles/Proyecto1_run.dir/main.cpp.obj	add3dc4f9f41950b
+9	1290	7475308012927668	App/CMakeFiles/Proyecto1_run.dir/DoublyLinkedList.cpp.obj	889e1f38b8409a8a
+3	263	7475317582296079	tst/CMakeFiles/Proyecto1_test.dir/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj	c4ba4da64fcac7a0
+47	280	7475317582431221	Library/CMakeFiles/Library.dir/cmake-build-debug/CMakeFiles/3.26.4/CompilerIdCXX/CMakeCXXCompilerId.cpp.obj	4c9e116dfddd75bd
+29	1390	7475317593647563	Library/CMakeFiles/Library.dir/ListaSimple.cpp.obj	3120ebaac5accc6f
+21	1692	7475317596689843	Library/CMakeFiles/Library.dir/MPointer.cpp.obj	10086bddca09a8dd
+36	2871	7475317608510372	Library/CMakeFiles/Library.dir/MPointerGC.cpp.obj	52fd39d9d8dda5ed

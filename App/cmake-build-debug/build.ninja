@@ -70,6 +70,13 @@ build CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj: CXX_COMPILER__Pruebas_unscann
   OBJECT_DIR = CMakeFiles\Pruebas.dir
   OBJECT_FILE_DIR = CMakeFiles\Pruebas.dir
 
+build CMakeFiles/Pruebas.dir/sorts.cpp.obj: CXX_COMPILER__Pruebas_unscanned_Debug E$:/Escritorio/OneDrive$ -$ Estudiantes$ ITCR/TEC/Curso$ 2024/II$ Semestre/Datos$ 2/Proyectos/Proyecto1/App/sorts.cpp || cmake_object_order_depends_target_Pruebas
+  DEP_FILE = CMakeFiles\Pruebas.dir\sorts.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  INCLUDES = -I"E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/../Library" -I"E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library" -isystem "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/_deps/googletest-src/googletest/include" -isystem "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/App/cmake-build-debug/_deps/googletest-src/googletest"
+  OBJECT_DIR = CMakeFiles\Pruebas.dir
+  OBJECT_FILE_DIR = CMakeFiles\Pruebas.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Pruebas
@@ -78,7 +85,7 @@ build CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj: CXX_COMPILER__Pruebas_unscann
 #############################################
 # Link the executable Pruebas.exe
 
-build Pruebas.exe Pruebas[1]_tests.cmake | ${cmake_ninja_workdir}Pruebas[1]_tests.cmake: CXX_EXECUTABLE_LINKER__Pruebas_Debug CMakeFiles/Pruebas.dir/main.cpp.obj CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj | E$:/Escritorio/OneDrive$ -$ Estudiantes$ ITCR/TEC/Curso$ 2024/II$ Semestre/Datos$ 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a lib/libgtest_main.a lib/libgtest.a || E$:/Escritorio/OneDrive$ -$ Estudiantes$ ITCR/TEC/Curso$ 2024/II$ Semestre/Datos$ 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a lib/libgtest.a lib/libgtest_main.a
+build Pruebas.exe Pruebas[1]_tests.cmake | ${cmake_ninja_workdir}Pruebas[1]_tests.cmake: CXX_EXECUTABLE_LINKER__Pruebas_Debug CMakeFiles/Pruebas.dir/main.cpp.obj CMakeFiles/Pruebas.dir/DoublyLinkedList.cpp.obj CMakeFiles/Pruebas.dir/MPointerTest.cpp.obj CMakeFiles/Pruebas.dir/sorts.cpp.obj | E$:/Escritorio/OneDrive$ -$ Estudiantes$ ITCR/TEC/Curso$ 2024/II$ Semestre/Datos$ 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a lib/libgtest_main.a lib/libgtest.a || E$:/Escritorio/OneDrive$ -$ Estudiantes$ ITCR/TEC/Curso$ 2024/II$ Semestre/Datos$ 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a lib/libgtest.a lib/libgtest_main.a
   FLAGS = -g
   LINK_LIBRARIES = "E:/Escritorio/OneDrive - Estudiantes ITCR/TEC/Curso 2024/II Semestre/Datos 2/Proyectos/Proyecto1/Library/cmake-build-debug/libLibrary.a"  lib/libgtest_main.a  lib/libgtest.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Pruebas.dir

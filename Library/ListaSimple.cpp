@@ -25,7 +25,6 @@ Nodo * ListaSimple::eliminar(void* _direccion){
         Nodo * tmp = inicio;
         while (tmp != NULL){
             if (tmp->direccion == _direccion){
-                //delete static_cast<int*>(tmp->direccion);
                 nodo_anterior->siguiente = tmp->siguiente;
                 return tmp;
             }
@@ -61,7 +60,7 @@ void ListaSimple::modificar(void* _dato, int ope){
     while (tmp != NULL){
         if (tmp->direccion == _dato){
             tmp->cantidad += ope;
-            if (tmp->cantidad == 0){
+            if (tmp->cantidad < 1){
                 this->eliminar(tmp);
             }
             break;

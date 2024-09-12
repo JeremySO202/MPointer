@@ -22,9 +22,15 @@ public:
 
 
     void insertarInicio(int data);
-    void quickSort();
-    void bubbleSort();
-    void insertionSort();
+
+
+    bool isSorted();
+
+    void set(int index, int value);
+
+    int get(int index);
+
+    int size();
 };
 
 

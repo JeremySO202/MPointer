@@ -4,12 +4,13 @@
 
 
 #include <thread>
+#include <atomic>
 #include "ListaSimple.h"
 
 class MPointerGC{
 private:
 
-    bool stop;
+    std::atomic<bool> stop;
     std::thread hilo;
 
     ListaSimple *direcciones = new ListaSimple();

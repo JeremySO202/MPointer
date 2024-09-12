@@ -43,9 +43,9 @@ public:
     T* operator->(){
         return data;
     }
-    // SObrecarga del operador * (retorna el valor en memoria)
-    T* operator*() {
-        return data;
+
+    T& operator*() {
+        return *data;
     }
 
 
@@ -55,14 +55,14 @@ public:
         data = nullValue;
         return *this;
     }
-    // SObrecarga del operador = (si es del tipo T)
+
     MPointer& operator=(T newData) {
         *data =  newData;
 
         return *this;
     }
 
-    // SObrecarga del operador = (si es del tipo MPointer)
+
     MPointer& operator=(MPointer& newData) {
         MPointerGC &gc = MPointerGC::getInstance();
         gc.newDireccion(newData.data);
@@ -71,13 +71,24 @@ public:
         return *this;
     }
 
-    // Sobrecrga del operador &(accede a valor en memoria)
+
     T operator&() {
         return *data;
     }
 
     bool operator==(std::nullptr_t) const {
         return data == nullptr;
+    }
+    bool operator!=(std::nullptr_t) const {
+        return data != nullptr;
+    }
+
+    bool operator==(const MPointer& comp) {
+        return this->data == comp.data;
+    }
+
+    bool operator!=(const MPointer& comp) {
+        return this->data != comp.data;
     }
 
 
